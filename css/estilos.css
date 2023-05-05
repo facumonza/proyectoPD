@@ -1,0 +1,10 @@
+body {background-color: #FEF9E7;
+      background-image: url(../imagenes/bombasfondo.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+}
+h1 {color: #455A64;
+  font-size: 30px;
+}
+.amarillo {color: #FBC02D}
