@@ -4,32 +4,9 @@ body {background-color: #FEF9E7;
       background-attachment: fixed;
       font-family: verdana;
 }
-.bombasfondo {
-width:10%;
-margin:20px;
-padding: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
 
-h1 {text-align: center;
-      width: 40%;
-      color: #455A64;
-      font-size: 40px;
-      font-style: italic;
-      margin:10px;
-      padding: 10px;
-      display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-p {font-size: 20px;
-font-style: italic;
-font-family: verdana;}
-
-header {width: 98vw;
+header {width: 97vw;
+  height: 15vh;
   box-sizing: border-box;
   background-color: yellow;
   margin: 5px;
@@ -39,35 +16,73 @@ header {width: 98vw;
   justify-content: space-between;
 }
 
-nav {background-color: grey;
+.bombasfondo {
+width:10%;
+margin:5px;
+padding: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h1 {text-align: center;
+    width: 20%;
+    color: #455A64;
+    font-size: 30px;
+    font-style: italic;
+    margin:5px;
+    padding: 5px;
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+.redes {margin:20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {font-size: 20px;
+font-style: italic;
+font-family: verdana;}
+
+nav {width: 97vw;
+  box-sizing: border-box;
+  background-color: lightblue;
   font-size: 20px;
-  margin: 7px;
-  padding: 20px;
-  border: 3px dotted;
+  margin: 5px;
+  padding: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+a:link {color:purple;}
+a:hover {color:red;}
 
-.receta {display: flex;
+.receta {width: 97vw;
+  box-sizing: border-box;
+  display: flex;
   justify-content: space-between;
   }
 
-  .flecha {display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
+.flecha {display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .ingredientes {background-color: lightblue;
-  margin:10px;
-  padding: 20px;
+  margin:5px;
+  padding: 5px;
   border: 4px solid;
   display: flex;
     justify-content:center;
 }
-.pasos {background-color: lightblue;
-  margin:10px;
-  padding: 20px;
+.pasos {
+  background-color: lightblue;
+  margin:5px;
+  padding: 5px;
   border: 4px solid;
   display: flex;
   justify-content: space-between;
@@ -77,13 +92,6 @@ nav {background-color: grey;
 padding: 20px;
 display: flex;
 justify-content: center;
-}
-
-footer {background-color: lightblue;
-  margin:10px;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
 }
 
 ul {font-size: 18px}
@@ -97,11 +105,17 @@ display: flex;
 flex-direction: column;
 justify-content: space-between}
 
-.redes {margin:20px;
-padding: 10px;
-display: flex;
-justify-content: space-between;
-align-items: center;}
+footer {width: 97vw;
+  height: 15vh;
+  box-sizing: border-box;
+  background-color: lightblue;
+  margin:10px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
 
-a:link {color:purple;}
-a:hover {color:red;}
+.mapa {width:10%;
+margin:5px;
+padding: 5px;
+}
