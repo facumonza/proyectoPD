@@ -1,35 +1,44 @@
-body {width: 95vw;
-      background-color: #FEF9E7;
+body {background-color: #FEF9E7;
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: fixed;
       font-family: verdana;
 }
-.bombasfondo {margin:20px;
+.bombasfondo {
+width:10%;
+margin:20px;
 padding: 10px;
 display: flex;
-justify-content: center}
+justify-content: center;
+align-items: center;
+}
 
 h1 {text-align: center;
+      width: 40%;
       color: #455A64;
-      font-size: 50px;
+      font-size: 40px;
       font-style: italic;
-      margin:20px;
+      margin:10px;
       padding: 10px;
       display: flex;
-      justify-content: center}
+        justify-content: center;
+        align-items: center;
+    }
 }
 p {font-size: 20px;
 font-style: italic;
 font-family: verdana;}
 
-header {background-color: yellow;
+header {width: 98vw;
+  box-sizing: border-box;
+  background-color: yellow;
   margin: 5px;
   padding: 5px;
   border: 4px solid;
   display: flex;
   justify-content: space-between;
 }
+
 nav {background-color: grey;
   font-size: 20px;
   margin: 7px;
@@ -76,8 +85,10 @@ footer {background-color: lightblue;
   display: flex;
   justify-content: space-between;
 }
+
 ul {font-size: 18px}
 ol {font-size: 18px}
+
 iframe {border: 3px solid}
 
 .dejatureceta {margin:10px;
@@ -89,7 +100,8 @@ justify-content: space-between}
 .redes {margin:20px;
 padding: 10px;
 display: flex;
-justify-content: space-between;}
+justify-content: space-between;
+align-items: center;}
 
 a:link {color:purple;}
 a:hover {color:red;}
