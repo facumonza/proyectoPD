@@ -16,13 +16,19 @@ header {width: 97vw;
   justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  body {background-color: #EAECEE;
+  }
+}
+
 .bombasfondo {
-width:10%;
+width:12%;
 margin:5px;
 padding: 5px;
 display: flex;
 justify-content: center;
 align-items: center;
+display: flex;
 }
 
 h1 {text-align: center;
@@ -36,10 +42,12 @@ h1 {text-align: center;
     display: flex;
       justify-content: space-between;
       align-items: center;
-    }
+}
 
 .redes {margin:20px;
   padding: 10px;
+  height: 50%;
+  width: 12%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -68,12 +76,18 @@ font-size: 20px;}
 .receta {width: 97vw;
   box-sizing: border-box;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   }
 
 .flecha {display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+@media (max-width: 575px) {
+  .flecha {
+    display: none;
+  }
 }
 
 .ingredientes {background-color: lightblue;
@@ -96,6 +110,27 @@ font-size: 20px;}
 padding: 20px;
 display: flex;
 justify-content: center;
+}
+
+.bombasimagen {margin:10px;
+padding: 20px;
+width: 70%;
+height: 70%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 575px) {
+  .video {
+    display: none;
+  }
+}
+
+@media (min-width: 575px) {
+  .bombasimagen {
+    display: none;
+  }
 }
 
 ul {font-size: 18px}
