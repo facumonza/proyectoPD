@@ -1,6 +1,4 @@
 
-function cartel() {alert ("Potrero digital");}
-
 function modonocturno() {document.body.style.backgroundColor = "#5D5C5B";
 document.body.style.color = "white";}
 
