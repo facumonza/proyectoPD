@@ -19,17 +19,14 @@ header {
   align-items: center;
 }
 
-.header2 {align-items: center;
-  position: fixed;
+.header2 { position: fixed;
   top: 0;
   width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-bottom: solid 1px;
   height: 15vh;
-  background-color: #FDEBD0;
-  margin: 5px;
-  padding: 5px;
-  border: 4px solid;
+  background-color: #5D5C5B;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;}
@@ -81,6 +78,16 @@ h1 {font-family: 'Roboto', sans-serif;
   align-items: center;
 }
 
+h2 {font-size: 23px;
+font-style: italic;
+font-family: verdana;
+display: flex;
+justify-content: flex-start;
+margin: 1%;
+}
+
+h3 {text-decoration: underline;}
+
 p {font-size: 20px;
 font-style: italic;
 font-family: verdana;
@@ -121,6 +128,7 @@ font-size: 20px;}
 
 .flecha {display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -131,27 +139,50 @@ font-size: 20px;}
 }
 
 .ingredientes {background-color: #FDEBD0;
-  width: 50%;
-  margin:5px;
-  padding: 5px;
-  border: 2px solid;
+  width: 100%;
+  margin:1%;
+  padding: 1%;
   display: flex;
-    justify-content:center;
-}
-.pasos {
-  background-color: #FDEBD0;
-  width: 50%;
-  margin:5px;
-  padding: 5px;
-  border: 2px solid;
-  display: flex;
-  justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.imagenlista {margin: 2%;
+width: 30%;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
-.video {margin:10px;
-padding: 20px;
+.pasos {
+  background-color: #FDEBD0;
+  width: 100%;
+    margin:1%;
+    padding: 1%;
+    display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+}
+.pasosterminados {margin: 2%;
+width: 30%;
 display: flex;
-justify-content: center;
+justify-content: space-between;
+align-items: center;
+}
+
+.videoreceta {display: flex;
+align-items: center;
+justify-content: center;}
+
+.video {
+margin: 2%;
+width: 30%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-radius: 20px;
+box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 .conteiner {width: 97vw;
